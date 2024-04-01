@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.5">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<title>Mentoriny - Votre mentorat personnalisé</title>
+
+</head>
+<body>
+    <header>
+        <div class="space-1">
+            <div class="logo"><img style="width: 199px;height:194px;margin-left:50px;margin-bottom: -30px;" src="logo.png"/></div>
+            <div class ="right-header">
+                
+                <div href="main.html"><a href="main.html" id="connexion"style="cursor: pointer;">Accueil</a></div>
+            </div>
+        </div>
+    </header>
+    <div style ="margin: 0 auto;" class="e-ou-m">
+        <h1 style="padding-top:100px;display:flex;justify-content: center;align-items: center;font-family: 'Inter', sans-serif ;font-weight: bolder;">Êtes-vous élève ou mentor ?</h1>
+        <div style="padding-top:70px;display: flex;justify-content: center;align-items: center;"href=""><p id="connexion"style="cursor: pointer;font-family: 'Inter', sans-serif ;font-weight: bold;">élève</p>
+        <p id="connexion"style="margin-left:250px;cursor: pointer;font-family: 'Inter', sans-serif ;font-weight: bold;">mentor</p></div>
+    </div>
+    <footer>
+        <div class="footer">
+            <div class="logo"><img style="width: 199px;height:194px;margin-left:50px;margin-bottom: -30px;" src="logo.png"/></div>
+            <div class="social-media">
+                <img class="facebook"/><img style="cursor:pointer;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAABNJJREFUaEPtmluoVkUUx38mWCFCZUgJRnZP08iwBxHJRCx8iK6CFxAxFamUonzowUuSkWEYpNgFooeKoiALKhQtKgSxRHxIxUQKqwdNIzMzpeYP+8vjOWf2Xmv27O+gngUf5+Gs23/Wnpl1mT6cZ9TnPMNLL+BzPeK9Ec4c4duB0cCNwJXFb3DxV6Z+AX7u8Hc3sBXYntmP/9U1EeEhwOPAbOCSRMcPhUVZB7xSLEiimq5iOQHfBiwCHgT6ZvLwH+BtYAWg6NemHICvAFYDD9f2Jq7gX+AN4CngSB07dQFPB9YAA+o44ZDVpz4D+NQhcwZrHcDaX/NTDdeUWxrkl6ToSAF8KfAJMCbFYEaZD4FpwHGPTi/gQcBX4SC5wWOkQd4twMSwt/+02vAA1j6VgeFW5W3i2xT8mgSctNjzANZnPNmiNJHnR0C/U8AFwNXhZNadbqGXgCcsjFbAjwEvWxQ6eP4CXgc+BjZE5C4GRoaf9qsytDK6G/i8yr4F8LXA3ipFzv+/CTwZMrLfjHKyLz/K6ABwE3C0jMkCWHtkvNExC9szwHMWxg48FsBi11e4oA5g7Vnt3VykT06fnpesgKVXX8K+mIGqCH8LjPJ6F+HXYXQdsD9B3w/ANUa5tWUJURlglXUq1XLRe8CURGWeCCsRUX7/e3e2ygDnTh3nAK9VAL4ImApc1YlP5aYyPCtFbZUB1gnqMVLljLZGWWEvkJ8BN1cpMvx/M3CXJ8K5P+fKwwTIfRvoDu+SZ8cirLrzBcNKeljU4vk1ItC/6v70GCp4dZV+0VkuBlgHzEMJRspEygDrkFF/KycpsVllBbwTuCWn9aJxF4twE4BfDYs41wr4GKA9kJPaHeFuD67YJ92qWM5mwHuK9vAZGGKA1TTLTe2OsIqILr22GOC/Q4LfLwGxTsWchYZcGBd0fpngy4nQ3r3QuocPJzbRmwD8SKiFdQB5SYnTQCtgT7LeUaeShwlezyr4XyxqZ69a1x7emOh4ExFObS0pTb3HGmGVWPO8SwpEc9gEXS0RRer6BHlNQxZaAc8qRhteO7kjrBmVDtCUWZWqrnesgDXe3OVFWxQAOfewelTfJ/ghEVVfP1kBi0/TOm/DXYOuHREH7y9p2l1WdCY7i2rcemsC4G3FXLqLaFk9vDhwJ81vIg62M/FQj1q9ahfgoWXNsIRVbxdgzZTVwz7oBSx+nbp3JoDrTqRdgNW0fyDmc1XXMjWt6ynAqgG051XedktVgCX0fvGMoW6g2xFhNR4fLXPUAlgjUl0NOknrUNOANYgbVjU6tQAWyPsi14ZnAZoGPDbMir+pcsgKWHo0t9EUMZWaBPw0sNLimAew9Kku1UGWQk0Bdk00vIDVmP+uGFZ7QTcBWBmVPmXl2ybyApZSdRg/Au4wWTjNlBvw+jC31rOpPzx+pABu6dfTQM1wrJQTsF78JQ0K6gAWUM+EIgdgNeZmAh9YV7kzX13A0qec+3nD08O6gHVLLAs3hV7jJVMOwC3jI0Kh/myYEN4b8SYFsAYCbxV69cy4NuUE3HLm8uKzU8dBL2xb5AGsftS7IXPSlaPXPtmoCcAdnVMDQY/G9FBcNWrs1Y7S1uXA18WM2Pq6x70QTQN2O9S0QC/gple4p/X3RrinI9C0/f8AWkvaPVkWNQQAAAAASUVORK5CYII="/>
+                <img class="linkedin"/><img style="cursor:pointer;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAAAXNSR0IArs4c6QAAAupJREFUaEPtmkvoTkEUwH//2HgsJIXIY6E8Ux4LsaEkrxKJUsgWKwsreSwssPLY2EiUKBYspShKpCShLDzzWLBCEuWemvvvdps7893rO+7M/c/U11f3njv3/OacOefMzB1giLWBIcZLAu66xZOFk4U7NgK9uPRYYCMwOXD298A14KtLTx/wBOAxMD5w2Fy9z8B8QP6tzQe8BzgVCWyupuh8pinwIeBgZMCHM31F70YWTsARWFvdwh+BN8BUYGIAA6IG/AzYZqJ4zrkQuAjMbBFcBfgPMBd4YQGbneXtJ8CwlqBVgO8DSxxAD4FFXQK+AmxxAMn9zV0CvgcscwDdBZZ2CfgbMA34YoEaZ6L2yC4BC8tVYDvwowA2GriQRe4NLcHKa1WCVs4jOfh2IQ8vB2TB0WZTBW4TrOrd0QF/Al4DMj1kDT6m5qiqAe8A3lqUmQKcL11fBfyyyMpSbpNZvx7PytNzlgW8TJHVwIGs3+k9wKsBzwGkvCw3KSufly6OAH5aZE8CK81PdixcTSx+GVjjkVMDlhKyDCa61AE+ApwFfLA5o6S6B4AM9n+fw/0AHgV878FNiyLrgBuxAtdkHRR/59hUDNqli8Cy+pId0qe+nUcTFKXosbXggcWtJToXFxt3gLUOd9+Xpa0TsQKfBnZblD8G7K+A2gpcihFYom5V0JICpGrLaAVwK0bgxSbNVAUvcffi4iSXWwA8ihHYl2ImAR8sYLZcn4sFHbR8wHVyvTpwP0rL9cB1RzKeZ9JUWWRWRVkrcmoWTsDGDHVq6WThku8mlzYDkuZwwTNS0CpOE98XAK7z4RSlux6ld5r96HJRUGcTTw7kjjoKj13AK8t92zvUK62muxXaz6kFLW3Fm/afgPsVpZtaQPu5f7JwjB+m7QVk28jafHlYzoBfAsO1zdKn/n8DM8zZVCNgeUg+R5LjkBg+Lr1ZkSoH4X0W7tPAh9NNAg7HFjqaJAvrjGs4vSYLh2MLHU3+AlIa/T10YopJAAAAAElFTkSuQmCC"/>
+                <img class="insta"/><img style="cursor:pointer;" src="data:image/png;base64,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"/>
+            </div>
+            <div class="lien-rapide">
+                <h1>Liens rapide</h1>
+                <p style="cursor: pointer;text-decoration: underline;"href="https://centrale-casablanca.ma/">Ecole Centrale Casablanca</p>
+                <p style="cursor: pointer;text-decoration: underline;"href="https://centraliensupelec.ma/">Association des centraliens au Maroc</p>
+            </div>
+            <div class="contact-rapide">
+                <h1>Contact Rapide</h1>
+                <p>page </p>
+                <p>page </p>
+                <p>page </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
